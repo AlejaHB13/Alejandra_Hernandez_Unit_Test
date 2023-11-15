@@ -63,6 +63,9 @@ public class Mavenproject1 {
     System.out.println("Porcentaje de hombres: " + porcentajeHombres + "%");
     System.out.println("Porcentaje de mujeres: " + porcentajeMujeres + "%");         
                 break;
+            case "13":
+                System.out.println("Bienvenidos");
+                break;
             default:
                 throw new AssertionError();
         }
